@@ -1,0 +1,125 @@
+#image{
+  width: 90%;
+  transition: ease-in-out 2s;
+  border: solid black 10px;
+  margin-left:8%;
+  height:50vh
+  
+}
+body{
+      background-color: #8E8F93;
+      font-family: font;
+      
+    }
+    @font-face{
+       font-family:font;
+       src:url("Vampire Wars.ttf")
+    }
+    #contact{
+      display: flex;
+      
+    }
+    #con{
+      width: 40px;
+      height: 40px
+    }
+    #nav_bar{
+      position: absolute;
+     background-color: #151C26;
+    width: 0;
+   overflow-x: hidden;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   transition: 1s;
+   z-index: 1;
+   padding-left: 10px;
+position: fixed;    }
+    #menu{
+      
+      width: 40px;
+      height: 40px;
+      
+    }
+    #head{
+      
+     margin-left: 40px;
+     display: flex
+      
+      
+    }
+    a{
+      color: #9D9EA4;
+      text-decoration: none;
+      font-size: 25px;
+      margin-bottom: 20px;
+      transition: 0.5s;
+      margin-left:10px
+    }
+    a:hover{
+      color: #E6E6E6;
+      font-size: 40px
+    }
+    #navtop{
+      text-align: center;
+      color: #727272;
+      padding: 0px;
+      left: 0
+    }
+    #close{
+      font-size: 50px;
+      position:absolute;
+      left:75%;
+      top:5px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #159722;
+      background-color: none
+    }
+    #close:hover{
+      font-size: 70px;
+      color: red;
+      background-color: transparent
+    }
+    #typewriter{
+      height: 40px;
+      font-size: 30px;
+      font-family:cursive,monospace;
+  margin-left: 10px;
+  padding-bottom: 60px
+      
+    }
+    #image{
+      width: 80%
+    }
+    iframe{
+      font-family: cursive
+    }
+    #up{
+      display: flex;
+      position: fixed;
+      background-color: #151C26;
+      color: white;
+      top: 0;
+      width: 100%;
+      border-bottom: solid black 4px;
+      height: 80px
+    }
+    #body{
+   margin-top: 80px
+    }
+    #text{
+      color: red
+    }
+    button{
+      background-color: #1A1D59;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+      border: none;
+      width: 150px;
+      height:40px;
+      padding: 10px;
+      margin: auto;
+      margin-left: 25%
+    }
